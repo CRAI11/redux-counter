@@ -4,27 +4,6 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-// import store from "./store/configureStore";
-// import { increment, decrement, reset } from "./store/counter/actions";
-
-// console.log(store);
-
-// store.subscribe(() => {
-//   console.log("state changed", store.getState());
-// });
-
-// for (let i = 0; i < 5; i++) {
-//   store.dispatch(increment());
-// }
-// setTimeout(() => {
-//   for (let i = 0; i < 3; i++) {
-//     store.dispatch(decrement());
-//   }
-//   setTimeout(() => {
-//     store.dispatch(reset());
-//   }, 2000);
-// }, 2000);
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
